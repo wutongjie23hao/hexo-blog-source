@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo博客
-subtitle: 新的开始
+title: 一千零一夜
+subtitle: 黑夜给了我黑色的眼睛，我却用它来寻找光明。
 description: blog.csdn.net
 author: LiangXiaolei
 email: 840585194@qq.com
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wutongjie23hao.github.io
+url: http://wutongjie23hao.github.io/
 root: ""
 permalink: :year/:month/:day/:title/
 permalink_defaults:
