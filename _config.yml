@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一千零一夜
-subtitle: 黑夜给了我黑色的眼睛，我却用它来寻找光明。
-description: blog.csdn.net
-author: LiangXiaolei
-email: 840585194@qq.com
+title: wutongjie23hao's Blog
+subtitle: 学如逆水行舟，不进则退；心似平野放马，易放难收。
+description: wutongjie23hao.github.io
+author: wutongjie23hao
+email: wutongjie23hao@163.com
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -53,9 +53,9 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
+archive: 1
+category: 1
+tag: 1
 
 # 服务器设置
 ## Hexo uses Connect as a server
@@ -75,11 +75,11 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 5
 pagination_dir: page
 
 # 评论
-disqus_shortname: wutongjie23haogithubio
+disqus_shortname: wutongjie23hao
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
@@ -89,13 +89,16 @@ plugins:
 ## Themes: http://hexo.io/themes/
 theme: pacman
 exclude_generator: 
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
 
 # Markdown语法
 ## https://github.com/chjj/marked
 markdown:
   gfm: true
-  pedantic: false
-  sanitize: false
+  pedantic: true
+  sanitize: true
   tables: true
   breaks: true
   smartLists: true
@@ -109,5 +112,5 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:wutongjie23hao/wutongjie23hao.github.io.git
+  repo: https://github.com/wutongjie23hao/wutongjie23hao.github.io.git
   branch: master
