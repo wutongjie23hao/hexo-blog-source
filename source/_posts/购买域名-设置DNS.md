@@ -3,10 +3,9 @@ date: 2015-05-22 13:28:12
 tags:
 - hexo
 categories:
-- hexo
+- 技术
 ---
-[原文链接](http://zipperary.com/2013/05/27/domain-name-and-dns/)
-博客搭建好之后就一直想买个域名，这几天在考虑域名和后缀的选择问题。后缀好说，首选``.com``，次选``.me``或``.net``。至于域名，由于本名拼音（zhaowei）和博名（zipperary）都已经被注册，只好另外构思。最终选择了zipperary.com这个域名。想法来源于library这个词，...rary取意存放之地，所以zipperary的意思就是zippera的博客存放之地了。
+博客搭建好之后就一直想买个域名，这几天在考虑域名和后缀的选择问题。<!--more-->后缀好说，首选``.com``，次选``.me``或``.net``。至于域名，由于本名拼音（zhaowei）和博名（zipperary）都已经被注册，只好另外构思。最终选择了zipperary.com这个域名。想法来源于library这个词，...rary取意存放之地，所以zipperary的意思就是zippera的博客存放之地了。
 域名的购买，首选Goddady。原因如下：
 在国外，不受国内各种干扰。
 国外域名商中唯一支持支付宝付款的。
@@ -28,3 +27,4 @@ zipperary.com
 这样就设置好了，访问<http://zipperary.com> 就能看到自己的网站了。
 如果想使用``www.zipperary.com``形式，``CNAME``文件中相应地变为``www.zipperary.com``即可。
 需要注意的是，goddady和dnspod的设置都会有时间不等的延迟，并不一定会马上生效。
+[原文链接](http://zipperary.com/2013/05/27/domain-name-and-dns/)
